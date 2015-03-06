@@ -1,0 +1,482 @@
+
+/** body * {
+	background-color: rgba(10, 10, 10, 0.1);
+}**/
+
+/** universal styles **/
+
+
+html,
+body {
+	background-color: #fafbfb;
+	color: #474747;
+	text-align: center;
+	font-family: "Akkurat Light Pro", sans-serif;
+	font-size:14px;
+	line-height: 22px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+h1 {
+	font-size:32px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	line-height: 45px;
+	font-family: "Akkurat Light Pro", sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+	@media screen and (max-width: 515px) {
+		h1 {
+			font-size:24px;
+			line-height: 32px;
+		}
+	}
+
+h2 {	
+	font-family: "Akkurat-mono", sans-serif;
+	font-size:12px;
+	line-height: 19px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: #474747;
+	text-decoration: none;
+}
+
+a {	
+	font-family: "Akkurat-mono", sans-serif;
+	font-size:12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: #474747;
+	text-decoration: none;
+}
+
+	a:hover {
+		border-bottom: 2px solid #474747;
+	}
+
+p {
+	max-width: 600px;
+	margin: 0 auto 20px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+	@media screen and (max-width: 600px) {
+		p {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+
+
+/** universal fonts **/
+	
+@font-face {
+  font-family: 'Akkurat Light Pro';
+  src: url('AkkLg_Pro_1.eot'); /* IE9 Compat Modes */
+  src: url('AkkLg_Pro_1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AkkLg_Pro_1.woff') format('woff'), /* Modern Browsers */
+       url('AkkLg_Pro_1.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AkkLg_Pro_1.svg#b5c01d1b960fd3c923f4c0466bcdd227') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Akkurat Light Pro';
+  src: url('AkkLgIt_Pro_1.eot'); /* IE9 Compat Modes */
+  src: url('AkkLgIt_Pro_1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AkkLgIt_Pro_1.woff') format('woff'), /* Modern Browsers */
+       url('AkkLgIt_Pro_1.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AkkLgIt_Pro_1.svg#01465648c9d4be7579506237515c5d3b') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Akkurat-Mono';
+  src: url('Akkurat-Mono.eot'); /* IE9 Compat Modes */
+  src: url('Akkurat-Mono.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Akkurat-Mono.woff') format('woff'), /* Modern Browsers */
+       url('Akkurat-Mono.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Akkurat-Mono.svg#c8ec35f4572575e3068c7f7fce656efe') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+/** universal structures **/
+
+
+.container {
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+
+.section {
+	padding-top: 80px;
+	width: 66vw;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	@media screen and (max-width: 600px) {
+		.section {
+			width: 100%;
+		}
+	}
+	
+
+/** lil chunks **/
+
+.numbers {
+	font-size:32px;
+	font-weight: normal;
+	line-height: 45px;
+	font-family: "Akkurat Light Pro", sans-serif;
+	padding: 0 0 10px 0;
+	margin: 0 auto;
+}
+
+.logos {
+	max-width: 1136px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	@media screen and (max-width: 986px) {
+		.logos {
+			max-width: 810px;
+		}
+	}
+	
+	@media screen and (max-width: 515px) {
+		.logos {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	}
+	
+@media screen and (max-width: 515px) {
+	.logo {
+		max-width: 43vw;
+	}
+}
+	
+.workers {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+	@media screen and (max-width: 654px) {
+		.logos {
+			max-width: 95vw;
+		}
+	}
+	
+.worker {
+	width: 21vw;
+	max-width: 200px;
+}
+	@media screen and (max-width: 800px) {
+		.worker {
+			width: 32%;
+		}
+	}
+
+	@media screen and (max-width: 950px) {
+		.worker {
+			width: 31%;
+		}
+	}
+
+#footer {
+	background-color: #fafbfb;
+	width: 100%;
+	padding: 100px 0;
+}
+
+
+
+/** header **/
+
+.header_container {
+  float: left;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  margin-top: 25px;
+}
+
+	@media screen and (max-width: 683px) {
+		.header_container {
+			display: none;
+		}
+	}
+
+.header_left {
+  float: left;
+    margin-left: 30px;
+}
+
+.header_right {
+  float: right;
+}
+
+.navigation_link {
+  margin-right: 30px;
+}
+
+
+/** footer **/
+
+.footer_container {
+  float: left;
+  width: 100%;
+  background-color: #fafbfb;
+  padding: 25px 0;
+}
+
+.footer_left {
+  float: left;
+  margin-left: 20px;
+}
+
+	@media screen and (max-width: 450px) {
+		.footer_left {
+			  float: none;
+			  margin-left: 0;
+		}
+	}
+
+.footer_right {
+  float: right;
+   margin-right: 30px;
+}
+
+	@media screen and (max-width: 450px) {
+		.footer_right {
+			  float: none;
+			  text-align: center;
+			  margin-right: 0;
+			  margin-top: 20px;
+		}
+	}
+
+.footer_guy {
+  margin-left: 10px;
+  display: inline;
+}
+
+	@media screen and (max-width: 720px) {
+		.footer_guy {
+			  display: block;
+		}
+	}
+	
+	@media screen and (max-width: 450px) {
+		.footer_guy {
+			  display: block;
+		}
+	}
+	
+.footertext {
+	text-align: left;
+}
+
+	@media screen and (max-width: 450px) {
+		.footertext {
+			  text-align: center;
+		}
+	}
+	
+/** here is everything related to to the top frame**/
+
+#top {
+	background-color: #fafbfb;
+	height: 100vh;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	background-position:50%;
+	table-layout: fixed;	
+}
+
+	@media screen and (max-width: 450px) {
+		#top {
+			height: 90vh;
+		}
+	}
+
+
+#topinner {
+	display: table-cell;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+#toplogo {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.spiralContainer {
+  overflow:hidden;
+  animation: spin 6s linear 0s infinite normal;
+	  -webkit-animation: spin 6s linear 0s infinite normal;
+	  -moz-animation: spin 6s linear 0s infinite normal;  
+	  -ms-animation: spin 6s linear 0s infinite normal;
+	  -o-animation: spin 6s linear 0s infinite normal;
+  animation-play-state: paused;
+	  -webkit-animation-play-state: paused;
+	  -moz-animation-play-state: paused;
+	  -ms-animation-play-state: paused;
+	  -o-animation-play-state: paused;  
+}
+
+.spiral {
+	animation: spin 8s linear 0s infinite reverse;
+	  -webkit-animation: spin 8s linear 0s infinite reverse;
+	  -moz-animation: spin 8s linear 0s infinite reverse;
+	  -ms-animation: spin 8s linear 0s infinite reverse;
+	  -o-animation: spin 8s linear 0s infinite reverse;
+}
+
+.spiralContainer:hover {
+	animation-play-state: running;
+	  -webkit-animation-play-state: running;
+	  -moz-animation-play-state: running;
+	  -ms-animation-play-state: running;
+	  -o-animation-play-state: running;
+}
+
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+	@-webkit-keyframes spin {
+	  0% {-webkit-transform: rotate(360deg); }
+	  100% { -webkit-transform: rotate(0deg); }
+	}
+	
+	@-ms-keyframes spin {
+	  0% {-ms-transform: rotate(360deg); }
+	  100% { -ms-transform: rotate(0deg); }
+	}
+	
+	@-moz-keyframes spin {
+	  0% { -moz-transform: rotate(360deg); }
+	  100% { -moz-transform: rotate(0deg); }
+	}
+	
+	@-o-keyframes spin {
+	  0% { -o-transform: rotate(360deg); }
+	  100% { -o-transform: rotate(0deg); }
+	}
+		
+.down {
+	bottom: 50px;
+	position: absolute;
+    -webkit-animation: wiggle 1s ease 0s infinite;
+		  -moz-animation: wiggle 1s ease 0s infinite;
+		  -ms-animation: wiggle 1s ease 0s infinite;
+		  -o-animation: wiggle 1s ease 0s infinite;
+		  animation: wiggle 1s ease 0s infinite;
+    margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+	@media screen and (max-width: 450px) {
+		.down {
+			bottom: 20px;
+		}
+	}
+@keyframes wiggle {
+	  0% { transform: translate(2px, 1px) rotate(0deg); }
+	 10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	 20% { transform: translate(-3px, 0px) rotate(1deg); }
+	 30% { transform: translate(0px, 2px) rotate(0deg); }
+	 40% { transform: translate(1px, -1px) rotate(1deg); }
+	 50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	 60% { transform: translate(-3px, 1px) rotate(0deg); }
+	 70% { transform: translate(2px, 1px) rotate(-1deg); }
+	 80% { transform: translate(-1px, -1px) rotate(1deg); }
+	 90% { transform: translate(2px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+}		
+	
+	@-webkit-keyframes wiggle {
+	  	  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+		 10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+		 20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+		 30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+		 40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+		 50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+		 60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+		 70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+		 80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+		 90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+		100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+	}		
+	
+	@-ms-keyframes wiggle {
+	  	  0% { -ms-transform: translate(2px, 1px) rotate(0deg); }
+		 10% { -ms-transform: translate(-1px, -2px) rotate(-1deg); }
+		 20% { -ms-transform: translate(-3px, 0px) rotate(1deg); }
+		 30% { -ms-transform: translate(0px, 2px) rotate(0deg); }
+		 40% { -ms-transform: translate(1px, -1px) rotate(1deg); }
+		 50% { -ms-transform: translate(-1px, 2px) rotate(-1deg); }
+		 60% { -ms-transform: translate(-3px, 1px) rotate(0deg); }
+		 70% { -ms-transform: translate(2px, 1px) rotate(-1deg); }
+		 80% { -ms-transform: translate(-1px, -1px) rotate(1deg); }
+		 90% { -ms-transform: translate(2px, 2px) rotate(0deg); }
+		100% { -ms-transform: translate(1px, -2px) rotate(-1deg); }
+	}	
+	
+	@-moz-keyframes wiggle {
+	  	  0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
+		 10% { -moz-transform: translate(-1px, -2px) rotate(-1deg); }
+		 20% { -moz-transform: translate(-3px, 0px) rotate(1deg); }
+		 30% { -moz-transform: translate(0px, 2px) rotate(0deg); }
+		 40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+		 50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+		 60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+		 70% { -moz-transform: translate(2px, 1px) rotate(-1deg); }
+		 80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
+		 90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
+		100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
+	}	
+	
+	@-o-keyframes wiggle {
+	  	  0% { -o-transform: translate(2px, 1px) rotate(0deg); }
+		 10% { -o-transform: translate(-1px, -2px) rotate(-1deg); }
+		 20% { -o-transform: translate(-3px, 0px) rotate(1deg); }
+		 30% { -o-transform: translate(0px, 2px) rotate(0deg); }
+		 40% { -o-transform: translate(1px, -1px) rotate(1deg); }
+		 50% { -o-transform: translate(-1px, 2px) rotate(-1deg); }
+		 60% { -o-transform: translate(-3px, 1px) rotate(0deg); }
+		 70% { -o-transform: translate(2px, 1px) rotate(-1deg); }
+		 80% { -o-transform: translate(-1px, -1px) rotate(1deg); }
+		 90% { -o-transform: translate(2px, 2px) rotate(0deg); }
+		100% { -o-transform: translate(1px, -2px) rotate(-1deg); }
+	}	
+
+
+
+
