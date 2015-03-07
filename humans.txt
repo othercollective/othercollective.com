@@ -5,7 +5,8 @@
 
 # TEAM
 
-    Tyler Reinhard -- Frontend Design -- @abolishme
+    Banu Guler -- One Sixth -- @otherbanu
+    Tyler Reinhard -- Frontend Design -- @abolishme 
 
 # THANKS
 
