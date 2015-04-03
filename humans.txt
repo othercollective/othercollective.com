@@ -7,6 +7,7 @@
 
     Banu Guler -- One Sixth -- @otherbanu
     Tyler Reinhard -- Frontend Design -- @abolishme 
+    Mikey Appuhn -- Frontend Design -- @michaelappuhn
 
 # THANKS
 
