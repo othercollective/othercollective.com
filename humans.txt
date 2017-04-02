@@ -1,18 +1,1 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
-
-# Other Collective / othercollective.com
-
-# TEAM
-
-    Banu Guler -- One Sixth -- @otherbanu
-    Tyler Reinhard -- Frontend Design -- @abolishme 
-    Mikey Appuhn -- Frontend Design -- @michaelappuhn
-
-# THANKS
-
-    Hanna Hurr, Marc J, and Cooper
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5, JS
+WTF
